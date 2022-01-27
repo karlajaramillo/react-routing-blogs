@@ -1,13 +1,66 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Home */
+.navbar.blog-nav {
+  justify-content: end;
+}
+
+/* Home */
+.home {
+  padding: 20px;
+}
+.home-main-wrapper {
+  margin: 30px;
+}
+
+.home-main-wrapper img {
+  width: 100%;
+}
+
+
+/* Blog List */
+
+.blog-list-wrapper a {
+  text-decoration: none;
+}
+
+.blog-card {
+  border: 2px solid #ff6a6a;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.card-details {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* Blog Details */
+.card-details h2 {
+  font-size: 1rem;
+  color: darkcyan;
+}
+
+.card-details p {
+  text-align: left;
+}
+
+.card-details img {
+  width: 70%;
+  margin: 30px;
+}
+
+.card-details button {
+  background-color: transparent;
+  border: 1px solid rgb(68, 71, 68);
+  border-radius: 3px;
+  margin: 20px;
 }
