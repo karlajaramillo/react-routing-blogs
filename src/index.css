@@ -24,15 +24,34 @@
   width: 100%;
 }
 
+/*  Authors  */
+.author-wrapper div {
+  padding: 20px;
+}
+.author-wrapper h1 {
+  padding-top: 30px;
+  color: #a96839;
+}
+
+.author-wrapper h2 {
+  color: darkcyan;
+  font-size: 1rem;
+}
+
+.author-wrapper p {
+  margin-bottom: 0;
+}
 
 /* Blog List */
-
+.blog-list-wrapper {
+  padding: 40px 20px;
+}
 .blog-list-wrapper a {
   text-decoration: none;
 }
 
 .blog-card {
-  border: 2px solid #ff6a6a;
+  border: 2px solid #a96839;
   border-radius: 10px;
   padding: 10px;
   margin: 30px;
