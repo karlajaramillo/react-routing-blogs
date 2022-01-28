@@ -6,5 +6,4 @@ This project was created with [Create React App](https://github.com/facebook/cre
 [Look the app](https://javascriptdevelopers-kavajaga.netlify.app).
 
 
-<img width="417" alt="Screenshot 2022-01-28 at 09 13 50" src="https://user-images.githubusercontent.com/8181053/151511091-450ace76-c480-4e67-bdeb-2c428bd896cc.png">
-
+![routing](https://user-images.githubusercontent.com/8181053/151521485-f2d03c33-9c2a-4248-9c6b-7d6c49a9e685.png)
