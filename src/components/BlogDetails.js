@@ -2,12 +2,7 @@ import React from  'react-router-dom';
 import { useParams, useHistory } from 'react-router-dom';
 
 
-const BlogDetails = ({blogs}) => {
-  let history = useHistory();
-
-  function handleClick() {
-    history.push("/"); // go home
-  }
+const BlogDetails = ({blogs, onHistory}) => {
 
   const { id } = useParams();
   console.log(typeof id) // number - comes from
@@ -22,7 +17,7 @@ const BlogDetails = ({blogs}) => {
       <h2>{post[0].author}</h2>
       <img src={post[0].img} alt="post"/>
       <p>{post[0].body}</p>
-      <button type="button" onClick={handleClick}>⌃Home</button>
+      <button className="btn-history" type="button" onClick={onHistory}>⌃Home</button>
     </div>
   )
 }
